@@ -1,0 +1,24 @@
+
+/* we can overwrite the browser style by using this */
+{
+    margin: 0;
+    padding: 0;
+}
+.red {
+    background-color: red;
+    color: black
+
+}
+.green{
+    background-color: green;
+    color: black;
+}
+
+/* we can use color mostly three color value for eg. 1.RGB, 2.HEX code, 3.HSL */
+.red,.green{
+    background-image: url(IMG.jpg);
+    background-repeat: no-repeat;
+    height: 280px;
+    background-size: cover;
+    
+}
